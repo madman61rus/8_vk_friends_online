@@ -1,7 +1,22 @@
-# Watcher of Friends Online
+# Проверка друзей онлайн в ВК
 
-[TODO. There will be project description]
+Чтобы проверить кто из ваших друзей в ВК онлайн, запустите программу vk_friends_online.py и
+введите ваш логин и пароль 
 
-# Project Goals
+##### Пример :
+
+```
+vk_friends_online.py
+
+Введите логин в ВК ma******rus@gmail.com
+Введите пароль в ВК 2********
+
+Сейчас в ВК онлайн : 
+Светлана Н****ина
+Татьяна Ко****ц
+
+```
+
+# Цели проекта
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
