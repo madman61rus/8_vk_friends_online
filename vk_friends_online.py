@@ -1,4 +1,5 @@
 import vk
+import getpass
 
 APP_ID = 5808833  # чтобы получить app_id, нужно зарегистрировать своё приложение на https://vk.com/dev
 
@@ -9,7 +10,7 @@ def get_user_login():
 
 
 def get_user_password():
-    password = input('Введите пароль в ВК ')
+    password = getpass.getpass(prompt='Введите пароль в ВК ')
     return password
 
 
